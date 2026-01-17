@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import L from "leaflet";
+import * as L from "leaflet";
 import { MOCK_UNITS, Unit } from "@/lib/mockData";
 
 // Fix generic marker icon issue in Next.js
